@@ -81,12 +81,20 @@
       </div>
     </div>
     <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker
+                .register('TemplateData/sw.js')
+                .then(function () { console.log("Service Worker Registered"); });
+        }
+    </script>
+
+    <script>
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/cnftgallery.loader.js";
+      var loaderUrl = buildUrl + "/nftxrgallery-test.loader.js";
       var config = {
-        dataUrl: buildUrl + "/cnftgallery.data.unityweb",
-        frameworkUrl: buildUrl + "/cnftgallery.framework.js.unityweb",
-        codeUrl: buildUrl + "/cnftgallery.wasm.unityweb",
+        dataUrl: buildUrl + "/nftxrgallery-test.data.unityweb",
+        frameworkUrl: buildUrl + "/nftxrgallery-test.framework.js.unityweb",
+        codeUrl: buildUrl + "/nftxrgallery-test.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "NFT Web XR Gallery",
