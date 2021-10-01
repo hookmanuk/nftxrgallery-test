@@ -42,11 +42,11 @@ workbox.routing.registerRoute(
         plugins: [
             // Ensure that only requests that result in a 200 status are cached
             new workbox.cacheableResponse.CacheableResponsePlugin({
-                statuses: [200],
+                statuses: [200, 301]
             }),
             // Don't cache more than 50 items, and expire them after 30 days
             new workbox.expiration.ExpirationPlugin({
-                maxEntries: 50,
+                maxEntries: 9999,
                 maxAgeSeconds: 60 * 60 * 24 * 30, // 30 Days
             }),
         ],
