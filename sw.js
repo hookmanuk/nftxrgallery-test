@@ -34,7 +34,8 @@ workbox.routing.registerRoute(
     ({ request }) =>
         request.url.startsWith("https://hookmanstatic.blob.core.windows.net/nftgallery/storage/")
         || request.url.startsWith("https://cardano-mainnet.blockfrost.io/api")
-        || request.url.startsWith("https://infura-ipfs.io/ipfs/"),
+        || request.url.startsWith("https://infura-ipfs.io/ipfs/")
+        || request.url.endsWith(".ipfs.infura-ipfs.io/"),
     // Use a Cache First caching strategy
     new workbox.strategies.CacheFirst({
         // Put all cached files in a cache named 'images'
