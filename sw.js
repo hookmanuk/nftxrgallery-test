@@ -33,7 +33,7 @@ workbox.routing.registerRoute(
     // Check to see if the request's destination is style for an image
     ({ request }) =>
         request.url.startsWith("https://hookmanstatic.blob.core.windows.net/nftgallery/storage/")
-        || request.url.startsWith("https://cardano-mainnet.blockfrost.io/api")
+        || request.url.startsWith("https://cardano-mainnet.blockfrost.io/api")       
         || request.url.startsWith("https://infura-ipfs.io/ipfs/"),
     // Use a Cache First caching strategy
     new workbox.strategies.CacheFirst({
