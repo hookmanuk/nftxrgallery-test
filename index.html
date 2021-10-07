@@ -122,7 +122,7 @@
             if (policy != null) {
                 document.querySelector('#policyselector').value = policy;
             }
-            document.title = "CNFT Gallery - " + document.querySelector('#policyselector').options[document.querySelector('#policyselector').selectedIndex]?.text;
+            document.title = "CNFT Gallery - " + document.querySelector('#policyselector').options[document.querySelector('#policyselector').selectedIndex]?.text ?? policy;
         }
 
       canvasContainer.style.width = "500px";
