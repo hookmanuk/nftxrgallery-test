@@ -1,0 +1,121 @@
+{
+	"description" : "Artworks curated by Hookman, based on NFTs purchased",
+	"assets": [
+		{
+			"filename" : "starconsumer.jpg",
+			"text": "ADAliens - Star Consumer"
+		},
+		{
+			"filename" : "leaf.jpg",
+			"text": "Pandorea Ambient Leaf"
+		},
+		{
+			"filename" : "depthandlight.jpg",
+			"text": "autre coeur - depth and light"
+		},
+		{
+			"filename" : "peninsula.jpg",
+			"text": "5AMAlchemy - The Peninsula 020"
+		},		
+		{
+			"filename" : "acidhead.png",
+			"text": "Acid Head Core Comic"
+		},
+		{
+			"filename" : "drip.png",
+			"text": "Drip by Giordana Ziccardi"
+		},		
+		{
+			"filename" : "entheos.jpg",
+			"text": "Entheos Epoch 2 - 244197"
+		},
+		{
+			"filename" : "deadpool.png",
+			"text": "Deadpool"
+		},
+		{
+			"filename" : "deepvision.png",
+			"text": "Deep Vision"
+		},
+		{
+			"filename" : "pandorea.jpg",
+			"text": "Pandorea Pioneer Iridescent"
+		},		
+		{
+			"filename" : "entheosnaut.jpg",
+			"text": "Entheos Naut"
+		},
+		{
+			"filename" : "fractoid318.png",
+			"text": "Fractoid #318"
+		},		
+		{
+			"filename" : "fearandcloning.jpg",
+			"text": "ADAliens - Fear and Cloning"
+		},
+		{			
+			"filename" : "avatar.png",
+			"text": "unsigned_alchemy - Avatar"
+		},
+		{
+			"filename" : "specimen13.jpg",
+			"text": "ADAliens - Specimen 13"
+		},
+		{
+			"filename" : "flatfish.jpg",
+			"text": "autre coeur - flatfish"
+		},
+		{
+			"filename" : "rainborg.png",
+			"text": "Rainborg - Regalia"
+		},
+		{
+			"filename" : "euphoria.jpg",
+			"text": "Atreyu - Euphoria"
+		},
+		{
+			"filename" : "IvoryElevated.png",
+			"text": "Atreyu - Ivory Elevated"
+		},
+		{
+			"filename" : "alice.png",
+			"text": "The Lost Ladies - Alice"
+		},
+		{
+			"filename" : "ariel.png",
+			"text": "Adaz - Ariel"
+		},		
+		{
+			"filename" : "passion.png",
+			"text": "Love in the Metaverse - Passion.APP"
+		},		
+		{
+			"filename" : "fractoid318.png",
+			"text": "Fractoid #318"
+		},
+		{
+			"filename" : "fractoid496.png",
+			"text": "Fractoid #496"
+		},		
+		{
+			"filename" : "3dfractal38.jpg",
+			"text": "3D fractal #38"
+		},		
+		{
+			"filename" : "3dfractal51.jpg",
+			"text": "3D Fractal #51"
+		},
+		{
+			"filename" : "molten.jpg",
+			"text": "Steve3p_0 Molten"
+		},
+		{
+			"filename" : "molten.jpg",
+			"text": "Steve3p_0 Molten"
+		},
+		{
+			"filename" : "molten.jpg",
+			"text": "Steve3p_0 Molten"
+		},		
+	]	
+}
