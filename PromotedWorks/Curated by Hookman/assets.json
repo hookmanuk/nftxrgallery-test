@@ -46,17 +46,17 @@
 			"text": "Entheos Naut"
 		},
 		{
-			"filename" : "fractoid318.png",
-			"text": "Fractoid #318"
+			"filename" : "CardanoPics x Gaming.jpg",
+			"text": "CardanoPics x Gaming"
 		},		
 		{
 			"filename" : "fearandcloning.jpg",
 			"text": "ADAliens - Fear and Cloning"
 		},
-		{			
-			"filename" : "avatar.png",
-			"text": "unsigned_alchemy - Avatar"
-		},
+		{
+			"filename" : "fractoid318.png",
+			"text": "Fractoid #318"
+		},		
 		{
 			"filename" : "specimen13.jpg",
 			"text": "ADAliens - Specimen 13"
@@ -74,9 +74,9 @@
 			"text": "Atreyu - Euphoria"
 		},
 		{
-			"filename" : "IvoryElevated.png",
-			"text": "Atreyu - Ivory Elevated"
-		},
+			"filename" : "molten.jpg",
+			"text": "Steve3p_0 Molten"
+		},		
 		{
 			"filename" : "alice.png",
 			"text": "The Lost Ladies - Alice"
@@ -89,9 +89,9 @@
 			"filename" : "passion.png",
 			"text": "Love in the Metaverse - Passion.APP"
 		},		
-		{
-			"filename" : "fractoid318.png",
-			"text": "Fractoid #318"
+		{			
+			"filename" : "avatar.png",
+			"text": "unsigned_alchemy - Avatar"
 		},
 		{
 			"filename" : "fractoid496.png",
@@ -104,18 +104,6 @@
 		{
 			"filename" : "3dfractal51.jpg",
 			"text": "3D Fractal #51"
-		},
-		{
-			"filename" : "molten.jpg",
-			"text": "Steve3p_0 Molten"
-		},
-		{
-			"filename" : "molten.jpg",
-			"text": "Steve3p_0 Molten"
-		},
-		{
-			"filename" : "molten.jpg",
-			"text": "Steve3p_0 Molten"
-		},		
+		}
 	]	
 }
