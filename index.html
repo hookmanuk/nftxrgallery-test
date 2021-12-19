@@ -136,16 +136,25 @@
 
             var wallet = new URLSearchParams(window.location.search).get('wallet');
             if (wallet != null) {
-                document.querySelector('#walletid').value = wallet;
-                document.querySelector('#policyselector').value = null;
-                document.title = "CNFT Gallery - wallet " + document.querySelector('#walletid').value;
+                document.title = "CNFT Gallery - wallet " + wallet;
             }
             else {
                 var policy = new URLSearchParams(window.location.search).get('policy');
                 if (policy != null) {
-                    document.querySelector('#policyselector').value = policy;
+                    var policyname = new URLSearchParams(window.location.search).get('policyname');
+                    if (policyname != null) {
+                        document.title = "CNFT Gallery - " + policyname;
+                    }
+                    else {
+                        document.title = "CNFT Gallery - policy " + policy;
+                    }
                 }
-                document.title = "CNFT Gallery - " + document.querySelector('#policyselector').options[document.querySelector('#policyselector').selectedIndex]?.text ?? policy;
+                else {
+                    var special = new URLSearchParams(window.location.search).get('special');
+                    if (special != null) {
+                        document.title = "CNFT Gallery - " + special;
+                    }
+                }
             }
 
             canvasContainer.style.width = "500px";
