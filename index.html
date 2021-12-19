@@ -39,6 +39,10 @@
     </script>
 </head>
   <body>
+      <div id="ios-container" style="display:none;">          
+          <label>Sorry, iOS is not supported, please try another device</label>
+          <label>PC, Mac or high end Android devices are recommended</label>
+      </div>
     <div id="unity-container">
       <div id="unity-canvas-container">
         <canvas id="unity-canvas" style="width: 100%; height: 100%;"></canvas>
@@ -90,81 +94,100 @@
     </script>
 
     <script>
-      var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/nftxrgallery-test.loader.js";
-      var config = {
-        dataUrl: buildUrl + "/nftxrgallery-test.data.unityweb",
-        frameworkUrl: buildUrl + "/nftxrgallery-test.framework.js.unityweb",
-        codeUrl: buildUrl + "/nftxrgallery-test.wasm.unityweb",
-        streamingAssetsUrl: "StreamingAssets",
-        companyName: "DefaultCompany",
-        productName: "NFT Web XR Gallery",
-        productVersion: "0.1",
-      };
+        function iOS() {
+            return [
+                'iPad Simulator',
+                'iPhone Simulator',
+                'iPod Simulator',
+                'iPad',
+                'iPhone',
+                'iPod'
+            ].includes(navigator.platform)
+                // iPad on iOS 13 detection
+                || (navigator.userAgent.includes("Mac") && "ontouchend" in document)
+        }
 
-      var container = document.querySelector("#unity-container");
-      var canvas = document.querySelector("#unity-canvas");
-      var canvasContainer = document.querySelector("#unity-canvas-container");
-      var loadingBar = document.querySelector("#unity-loading-bar");
-      var progressBarFull = document.querySelector("#unity-progress-bar-full");
-        var fullscreenButton = document.querySelector("#unity-fullscreen-button");        
-      var unityInstance = null;
-         
-        
-        var wallet = new URLSearchParams(window.location.search).get('wallet');
-        if (wallet != null) {
-            document.querySelector('#walletid').value = wallet;
-            document.querySelector('#policyselector').value = null;
-            document.title = "CNFT Gallery - wallet " + document.querySelector('#walletid').value;
+        if (iOS()) {
+            document.getElementById("unity-container").style.display = "none";
+            document.getElementById("ios-container").style.display = "block";
         }
         else {
-            var policy = new URLSearchParams(window.location.search).get('policy');
-            if (policy != null) {
-                document.querySelector('#policyselector').value = policy;
-            }
-            document.title = "CNFT Gallery - " + document.querySelector('#policyselector').options[document.querySelector('#policyselector').selectedIndex]?.text ?? policy;
-        }
 
-      canvasContainer.style.width = "500px";
-      canvasContainer.style.height = "800px";
-      loadingBar.style.display = "block";
-
-      var script = document.createElement("script");
-      script.src = loaderUrl;
-      script.onload = () => {
-        createUnityInstance(canvas, config, (progress) => {
-          progressBarFull.style.width = 100 * progress + "%";
-        }).then((instance) => {
-          unityInstance = instance;
-          loadingBar.style.display = "none";
-          if (fullscreenButton)
-          {
-            fullscreenButton.onclick = () => {
-              unityInstance.SetFullscreen(1);
+            var buildUrl = "Build";
+            var loaderUrl = buildUrl + "/nftxrgallery-test.loader.js";
+            var config = {
+                dataUrl: buildUrl + "/nftxrgallery-test.data.unityweb",
+                frameworkUrl: buildUrl + "/nftxrgallery-test.framework.js.unityweb",
+                codeUrl: buildUrl + "/nftxrgallery-test.wasm.unityweb",
+        streamingAssetsUrl: "StreamingAssets",
+                companyName: "DefaultCompany",
+                productName: "NFT Web XR Gallery",
+                productVersion: "0.1",
             };
-          }           
-        }).catch((message) => {
-          alert(message);
-        });
-      };
-      document.body.appendChild(script);
 
-      //let enterARButton = document.getElementById('enterar');
-      let enterVRButton = document.getElementById('entervr');
+            var container = document.querySelector("#unity-container");
+            var canvas = document.querySelector("#unity-canvas");
+            var canvasContainer = document.querySelector("#unity-canvas-container");
+            var loadingBar = document.querySelector("#unity-loading-bar");
+            var progressBarFull = document.querySelector("#unity-progress-bar-full");
+            var fullscreenButton = document.querySelector("#unity-fullscreen-button");
+            var unityInstance = null;
+            
 
-      //document.addEventListener('onARSupportedCheck', function (event) {
-      //  enterARButton.disabled = !event.detail.supported;
-      //}, false);
-      document.addEventListener('onVRSupportedCheck', function (event) {
-        enterVRButton.disabled = !event.detail.supported;
-      }, false);
+            var wallet = new URLSearchParams(window.location.search).get('wallet');
+            if (wallet != null) {
+                document.querySelector('#walletid').value = wallet;
+                document.querySelector('#policyselector').value = null;
+                document.title = "CNFT Gallery - wallet " + document.querySelector('#walletid').value;
+            }
+            else {
+                var policy = new URLSearchParams(window.location.search).get('policy');
+                if (policy != null) {
+                    document.querySelector('#policyselector').value = policy;
+                }
+                document.title = "CNFT Gallery - " + document.querySelector('#policyselector').options[document.querySelector('#policyselector').selectedIndex]?.text ?? policy;
+            }
 
-      //enterARButton.addEventListener('click', function (event) {
-      //  unityInstance.Module.WebXR.toggleAR();
-      //}, false);
-      enterVRButton.addEventListener('click', function (event) {
-        unityInstance.Module.WebXR.toggleVR();
-      }, false);
+            canvasContainer.style.width = "500px";
+            canvasContainer.style.height = "800px";
+            loadingBar.style.display = "block";
+
+            var script = document.createElement("script");
+            script.src = loaderUrl;
+            script.onload = () => {
+                createUnityInstance(canvas, config, (progress) => {
+                    progressBarFull.style.width = 100 * progress + "%";
+                }).then((instance) => {
+                    unityInstance = instance;
+                    loadingBar.style.display = "none";
+                    if (fullscreenButton) {
+                        fullscreenButton.onclick = () => {
+                            unityInstance.SetFullscreen(1);
+                        };
+                    }
+                }).catch((message) => {
+                    alert(message);
+                });
+            };
+            document.body.appendChild(script);
+
+            //let enterARButton = document.getElementById('enterar');
+            let enterVRButton = document.getElementById('entervr');
+
+            //document.addEventListener('onARSupportedCheck', function (event) {
+            //  enterARButton.disabled = !event.detail.supported;
+            //}, false);
+            document.addEventListener('onVRSupportedCheck', function (event) {
+                enterVRButton.disabled = !event.detail.supported;
+            }, false);
+
+            //enterARButton.addEventListener('click', function (event) {
+            //  unityInstance.Module.WebXR.toggleAR();
+            //}, false);
+            enterVRButton.addEventListener('click', function (event) {
+                unityInstance.Module.WebXR.toggleVR();
+            }, false);
+        }
     </script>
   </body>
 </html>
