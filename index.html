@@ -43,48 +43,48 @@
           <label>Sorry, iOS is not supported, please try another device</label>
           <label>PC, Mac or high end Android devices are recommended</label>
       </div>
-    <div id="unity-container">
-      <div id="unity-canvas-container">
-        <canvas id="unity-canvas" style="width: 100%; height: 100%;"></canvas>
-      </div>
-      <div id="unity-loading-bar">
-        <div id="unity-logo"></div>
-        <div id="unity-progress-bar-empty">
-          <div id="unity-progress-bar-full"></div>
-        </div>
-      </div>
-      <div id="unity-footer">
-          <div id="unity-webgl-logo"></div>
-          <div id="unity-fullscreen-button"></div>
-          <button id="entervr" value="Enter VR" disabled>VR</button>
-          <!--<button id="enterar" value="Enter AR" disabled>AR</button>-->          
-          <div id="unity-build-title">
-              <label>Stake/Wallet address</label>
-              <input id="walletid" onkeypress="javascript: if(event.keyCode == 13) document.location = document.location.toString().replace(document.location.search, '') + '?wallet=' + this.value;" placeholder="Enter address here" />
-              <label>Collection</label>
-              <select id="policyselector" onchange="
+      <div id="unity-container">
+          <div id="unity-canvas-container">
+              <canvas id="unity-canvas" style="width: 100%; height: 100%;"></canvas>
+          </div>
+          <div id="loading-image"></div>
+          <div id="unity-loading-bar">
+              <div id="unity-progress-bar-empty">
+                  <div id="unity-progress-bar-full"></div>
+              </div>
+          </div>
+          <div id="unity-footer">
+              <div id="unity-webgl-logo"></div>
+              <div id="unity-fullscreen-button"></div>
+              <button id="entervr" value="Enter VR" disabled>VR</button>
+              <!--<button id="enterar" value="Enter AR" disabled>AR</button>-->
+              <div id="unity-build-title">
+                  <label>Stake/Wallet address</label>
+                  <input id="walletid" onkeypress="javascript: if(event.keyCode == 13) document.location = document.location.toString().replace(document.location.search, '') + '?wallet=' + this.value;" placeholder="Enter address here" />
+                  <label>Collection</label>
+                  <select id="policyselector" onchange="
     document.location = document.location.toString().replace(document.location.search, '') + '?policy=' + this.value
                 ">
-                  <option value="928fc36daf2fc95a11bef3f4e32d32aa7029de38c48d6dc01314f0dc" selected>Autre Coeur</option>
-                  <option value="95c248e17f0fc35be4d2a7d186a84cdcda5b99d7ad2799ebe98a9865">Aw0k3n Algorithms</option>
-                  <option value="8dbef3ae32a5ac935172ab84cb7a3540603207892c9ab63956490086">Steve3p_0</option>
-                  <option value="0d8d0a9ab73a1223bf0ce0c4cdd2ee6123301da92892459839394813">Arty Mc Fishell</option>
-                  <option value="16a2a21a7ed8a67c5254eda1f8d6041021b53f49ef53e18e3e572546">EntheosAI</option>
-                  <option value="fbfa072b4493c0a17ac42ce9d9146804b342be4f898e269950182240">Adaz Nightmares</option>
-                  <option value="e5b485bb600291d4ce615e7d65798d53e2886fd641cf42bafec0717a">Machine Dreamz</option>
-                  <option value="8638ffe012ad4463aa87d1e92ca52ec7cd42fa1a6e7b1d73b95d3aad">Baby Monkeys</option>
-                  <option value="545dc1601b5d469508698f7966a3c1c8cf207073041ad84b28d373c1">Tiger Society</option>
-                  <option value="d5e6bf0500378d4f0da4e8dde6becec7621cd8cbf5cbb9b87013d4cc">Space Budz</option>
-                  <option value="15509d4cb60f066ca4c7e982d764d6ceb4324cb33776d1711da1beee">Baby Alien Club</option>
-                  <option value="7a5a5c3757d33c2b2ff0b09405676e61f93d28b5d12805dd3320e31f">CryptoDino</option>
-                  <option value="0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04">unsigned_algorithms</option>
-                  <option value="f4988f549728dc76b58d7677849443caf6e5385dc67e6c25f6aa901e">Drunken Dragon</option>
-                  <option value="71c02bc12e578237ef87c1646d92a0de0cd51bd95d0158db6f206105">Cardoggos</option>
-                  <option value="1f02ffd171edc73021154e4103ad1240eb188751ecb035d12f231756">Masked On Buttons</option>
-              </select>
+                      <option value="928fc36daf2fc95a11bef3f4e32d32aa7029de38c48d6dc01314f0dc" selected>Autre Coeur</option>
+                      <option value="95c248e17f0fc35be4d2a7d186a84cdcda5b99d7ad2799ebe98a9865">Aw0k3n Algorithms</option>
+                      <option value="8dbef3ae32a5ac935172ab84cb7a3540603207892c9ab63956490086">Steve3p_0</option>
+                      <option value="0d8d0a9ab73a1223bf0ce0c4cdd2ee6123301da92892459839394813">Arty Mc Fishell</option>
+                      <option value="16a2a21a7ed8a67c5254eda1f8d6041021b53f49ef53e18e3e572546">EntheosAI</option>
+                      <option value="fbfa072b4493c0a17ac42ce9d9146804b342be4f898e269950182240">Adaz Nightmares</option>
+                      <option value="e5b485bb600291d4ce615e7d65798d53e2886fd641cf42bafec0717a">Machine Dreamz</option>
+                      <option value="8638ffe012ad4463aa87d1e92ca52ec7cd42fa1a6e7b1d73b95d3aad">Baby Monkeys</option>
+                      <option value="545dc1601b5d469508698f7966a3c1c8cf207073041ad84b28d373c1">Tiger Society</option>
+                      <option value="d5e6bf0500378d4f0da4e8dde6becec7621cd8cbf5cbb9b87013d4cc">Space Budz</option>
+                      <option value="15509d4cb60f066ca4c7e982d764d6ceb4324cb33776d1711da1beee">Baby Alien Club</option>
+                      <option value="7a5a5c3757d33c2b2ff0b09405676e61f93d28b5d12805dd3320e31f">CryptoDino</option>
+                      <option value="0e14267a8020229adc0184dd25fa3174c3f7d6caadcb4425c70e7c04">unsigned_algorithms</option>
+                      <option value="f4988f549728dc76b58d7677849443caf6e5385dc67e6c25f6aa901e">Drunken Dragon</option>
+                      <option value="71c02bc12e578237ef87c1646d92a0de0cd51bd95d0158db6f206105">Cardoggos</option>
+                      <option value="1f02ffd171edc73021154e4103ad1240eb188751ecb035d12f231756">Masked On Buttons</option>
+                  </select>
+              </div>
           </div>
       </div>
-    </div>
     <script>
         if ('serviceWorker' in navigator) {
             navigator.serviceWorker
@@ -169,6 +169,7 @@
                 }).then((instance) => {
                     unityInstance = instance;
                     loadingBar.style.display = "none";
+                    document.getElementById('loading-image').style.display = "none";
                     if (fullscreenButton) {
                         fullscreenButton.onclick = () => {
                             unityInstance.SetFullscreen(1);
