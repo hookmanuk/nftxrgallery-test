@@ -1,113 +1,109 @@
 {
 	"description" : "Minted on the blockchain with specific skills and abilities to improve the world and the Cardano ecosystem.",
-	"assets": [
+"assets": [
 		{
-			"filename" : "01Destiny Special 1.png",
-			"text": "Destiny Special 1"
+			"filename" : "Cyberiada-1.jpg",
+			"text": "Cyberiada 1"
 		},
 		{
-			"filename" : "01Destiny Special 1.png",
-			"text": "Destiny Special 2"
+			"filename" : "Cyberiada-2.jpg",
+			"text": "Cyberiada 2"
 		},
 		{
-			"filename" : "01Destiny Special 1.png",
-			"text": "Destiny Special 3"
+			"filename" : "Cyberiada-3.jpg",
+			"text": "Cyberiada 3"
 		},
 		{
-			"filename" : "01Destiny Special 1.png",
-			"text": "Destiny Special 4"
-		},		
-		{
-			"filename" : "01Destiny Special 1.png",
-			"text": "Missing"
+			"filename" : "Cyberiada-4.jpg",
+			"text": "Cyberiada 4"
 		},
 		{
-			"filename" : "01Destiny Special 1.png",
-			"text": "Destiny Special 5"
+			"filename" : "Cyberiada-5.jpg",
+			"text": "Cyberiada 5"
 		},
 		{
-			"filename" : "01Destiny Special 1.png",
-			"text": "Destiny Special 6"
+			"filename" : "Cyberiada-5.jpg",
+			"text": "Cyberiada 5"
 		},
 		{
-			"filename" : "01Destiny Special 1.png",
-			"text": "Destiny Special 7"
+			"filename" : "Cyberiada-6.jpg",
+			"text": "Cyberiada 6"
 		},
 		{
-			"filename" : "01Destiny Special 1.png",
-			"text": "Destiny Special 8"
+			"filename" : "Cyberiada-7.jpg",
+			"text": "Cyberiada 7"
 		},
 		{
-			"filename" : "01Destiny Special 1.png",
-			"text": "Destiny Special 9"
+			"filename" : "Proxies_Specials-Cyberiada.jpg",
+			"text": "Cyberiada Specials 1"
+		}		,
+		{
+			"filename" : "Destiny-1.jpg",
+			"text": "Destiny 1"
 		},
 		{
-			"filename" : "01Destiny Special 1.png",
-			"text": "Destiny Special 10"
+			"filename" : "Destiny-2.jpg",
+			"text": "Destiny 2"
 		},
 		{
-			"filename" : "01Destiny Special 1.png",
-			"text": "Destiny Special 11"
+			"filename" : "Destiny-3.jpg",
+			"text": "Destiny 3"
 		},
 		{
-			"filename" : "01Destiny Special 1.png",
-			"text": "Destiny Special 12"
-		},
-		{			
-			"filename" : "01Destiny Special 1.png",
-			"text": "Missing"
+			"filename" : "Destiny-4.jpg",
+			"text": "Destiny 4"
 		},
 		{
-			"filename" : "01Destiny Special 1.png",
-			"text": "Destiny Special 13"
+			"filename" : "Destiny-5.jpg",
+			"text": "Destiny 5"
 		},
 		{
-			"filename" : "01Destiny Special 1.png",
-			"text": "Destiny Special 14"
+			"filename" : "Destiny-6.jpg",
+			"text": "Destiny 6"
 		},
 		{
-			"filename" : "01Destiny Special 1.png",
-			"text": "Destiny Special 15"
+			"filename" : "Destiny-6.jpg",
+			"text": "Destiny 6"
 		},
 		{
-			"filename" : "01Destiny Special 1.png",
-			"text": "Destiny Special 16"
+			"filename" : "DestinySpecials01.jpg",
+			"text": "Destiny Specials 1"
 		},
 		{
-			"filename" : "01Destiny Special 1.png",
-			"text": "Destiny Special 17"
+			"filename" : "Moneda-1.jpg",
+			"text": "Moneda 1"
 		},
 		{
-			"filename" : "01Destiny Special 1.png",
-			"text": "Destiny Special 18"
+			"filename" : "Moneda-2.jpg",
+			"text": "Moneda 2"
 		},
 		{
-			"filename" : "01Destiny Special 1.png",
-			"text": "Destiny Special 19"
+			"filename" : "Moneda-3.png",
+			"text": "Moneda 3"
 		},
 		{
-			"filename" : "01Destiny Special 1.png",
-			"text": "Destiny Special 20"
+			"filename" : "Moneda-4.jpg",
+			"text": "Moneda 4"
 		},
 		{
-			"filename" : "01Destiny Special 1.png",
-			"text": "Missing"
+			"filename" : "Moneda-5.jpg",
+			"text": "Moneda 5"
 		},
 		{
-			"filename" : "01Destiny Special 1.png",
-			"text": "Destiny Special 21"
+			"filename" : "Moneda-6.jpg",
+			"text": "Moneda 6"
 		},
 		{
-			"filename" : "01Destiny Special 1.png",
-			"text": "Destiny Special 22"
+			"filename" : "Moneda-7.jpg",
+			"text": "Moneda 7"
 		},
 		{
-			"filename" : "01Destiny Special 1.png",
-			"text": "Destiny Special 23"
+			"filename" : "Moneda-8.jpg",
+			"text": "Moneda 8"
 		},
 		{
-			"filename" : "01Destiny Special 1.png",
-			"text": "Destiny Special 24"
+			"filename" : "Destiny-feature.jpeg",
+			"text": "Destiny"
 		}
 	]	
 }
