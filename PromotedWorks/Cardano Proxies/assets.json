@@ -3,103 +3,103 @@
 "assets": [
 		{
 			"filename" : "Cyberiada-1.jpg",
-			"text": "Cyberiada 1"
-		},
-		{
-			"filename" : "Cyberiada-2.jpg",
-			"text": "Cyberiada 2"
-		},
-		{
-			"filename" : "Cyberiada-3.jpg",
-			"text": "Cyberiada 3"
-		},
-		{
-			"filename" : "Cyberiada-4.jpg",
-			"text": "Cyberiada 4"
-		},
-		{
-			"filename" : "Cyberiada-5.jpg",
-			"text": "Cyberiada 5"
-		},
-		{
-			"filename" : "Cyberiada-5.jpg",
-			"text": "Cyberiada 5"
-		},
-		{
-			"filename" : "Cyberiada-6.jpg",
-			"text": "Cyberiada 6"
-		},
-		{
-			"filename" : "Cyberiada-7.jpg",
-			"text": "Cyberiada 7"
-		},
-		{
-			"filename" : "Proxies_Specials-Cyberiada.jpg",
-			"text": "Cyberiada Specials 1"
-		}		,
-		{
-			"filename" : "Destiny-1.jpg",
-			"text": "Destiny 1"
-		},
-		{
-			"filename" : "Destiny-2.jpg",
-			"text": "Destiny 2"
-		},
-		{
-			"filename" : "Destiny-3.jpg",
-			"text": "Destiny 3"
-		},
-		{
-			"filename" : "Destiny-4.jpg",
-			"text": "Destiny 4"
-		},
-		{
-			"filename" : "Destiny-5.jpg",
-			"text": "Destiny 5"
-		},
-		{
-			"filename" : "Destiny-5.jpg",
-			"text": "Destiny 5"
-		},
-		{
-			"filename" : "Destiny-6.jpg",
-			"text": "Destiny 6"
-		},
-		{
-			"filename" : "DestinySpecials01.jpg",
-			"text": "Destiny Specials 1"
-		},
-		{
-			"filename" : "Moneda-1.jpg",
-			"text": "Moneda 1"
-		},
-		{
-			"filename" : "Moneda-2.jpg",
-			"text": "Moneda 2"
-		},
-		{
-			"filename" : "Moneda-3.png",
-			"text": "Moneda 3"
+			"text": "Cyberiada"
 		},
 		{
 			"filename" : "Moneda-4.jpg",
-			"text": "Moneda 4"
-		},
+			"text": "Moneda"
+		},		
 		{
-			"filename" : "Moneda-5.jpg",
-			"text": "Moneda 5"
-		},
+			"filename" : "Destiny-6.jpg",
+			"text": "Destiny"
+		},				
 		{
-			"filename" : "Moneda-6.jpg",
-			"text": "Moneda 6"
+			"filename" : "Cyberiada-4.jpg",
+			"text": "Cyberiada"
 		},
 		{
 			"filename" : "Moneda-7.jpg",
-			"text": "Moneda 7"
+			"text": "Moneda"
+		},		
+		{
+			"filename" : "Cyberiada-5.jpg",
+			"text": "Cyberiada"
+		},
+		{
+			"filename" : "Moneda-2.jpg",
+			"text": "Moneda"
+		},
+{
+			"filename" : "Destiny-5.jpg",
+			"text": "Destiny"
+		},				
+		{
+			"filename" : "Proxies_Specials-Cyberiada.jpg",
+			"text": "Proxies Specials Cyberiada Sold at Dream Space Auction for 400 ₳"
+		}		,
+		{
+			"filename" : "Destiny-1.jpg",
+			"text": "Destiny"
+		},
+		{
+			"filename" : "Moneda-6.jpg",
+			"text": "Moneda"
+		},		
+		{
+			"filename" : "Cyberiada-2.jpg",
+			"text": "Cyberiada"
+		},
+		{
+			"filename" : "Destiny-4.jpg",
+			"text": "Destiny"
+		},
+		{
+			"filename" : "Destiny-5.jpg",
+			"text": "Corner placeholder"
+		},
+		{
+			"filename" : "Cyberiada-7.jpg",
+			"text": "Cyberiada"
+		},
+		{
+			"filename" : "Cyberiada-3.jpg",
+			"text": "Cyberiada"
+		},
+		{
+			"filename" : "DestinySpecials01.jpg",
+			"text": "Destiny Specials #1 Sold at Auction for 169 ₳"
+		},
+		{
+			"filename" : "Moneda-1.jpg",
+			"text": "Moneda"
+		},
+		{
+			"filename" : "Cyberiada-6.jpg",
+			"text": "Cyberiada"
+		},
+		{
+			"filename" : "Moneda-3.png",
+			"text": "Moneda"
+		},
+		{
+			"filename" : "Destiny-3.jpg",
+			"text": "Destiny"
+		},	
+		{
+			"filename" : "Moneda-5.jpg",
+			"text": "Moneda"
+		},
+		{
+			"filename" : "Destiny-2.jpg",
+			"text": "Destiny"
+		},
+		{
+			"filename" : "Cyberiada-5.jpg",
+			"text": "Cyberiada"
 		},
 		{
 			"filename" : "Moneda-8.jpg",
-			"text": "Moneda 8"
+			"text": "Moneda"
 		},
 		{
 			"filename" : "Destiny-feature.jpeg",
